@@ -5,22 +5,49 @@ body {
   letter-spacing: 2%;
   line-height: 1.5;
   color: #434455;
+  background-color: #fff;
+}
+
+.hero-section {
+  background: #2e2f42;
 }
 
 .page-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07143;
+  text-align: center;
+  color: #fff;
 }
 
 .section-title {
   font-weight: 700;
   font-size: 36px;
+  line-height: 1.11111;
+  text-align: center;
+  color: #2e2f42;
 }
 
 .third-title {
   font-weight: 500;
   font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 3%;
+  text-transform: uppercase;
+  color: #2e2f42;
+  text-decoration: none;
+}
+
+.logo > .web-logo {
+  color: #4d5ae5;
 }
 
 button {
@@ -31,4 +58,50 @@ button {
 
 button:hover {
   background-color: #404bbf;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.site-nav .link {
+  font-weight: 500;
+  color: #2e2f42;
+  text-decoration: none;
+}
+
+.site-nav .link:hover {
+  font-weight: 500;
+  color: #404bbf;
+}
+
+.site-nav .link:active {
+  font-weight: 500;
+  color: #404bbf;
+}
+
+.top-contacts .link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+  color: #434455;
+  text-decoration: none;
+}
+
+.top-contacts .link:hover {
+  color: #404bbf;
+}
+
+.team-section {
+  background: #f4f4fd;
+}
+
+.page-footer {
+  background: #2e2f42;
+  color: #f4f4fd;
+}
+
+.page-footer .logo {
+  color: #f4f4fd;
 }
