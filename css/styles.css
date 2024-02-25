@@ -70,7 +70,7 @@ ul {
   text-decoration: none;
 }
 
-.site-nav .link:hover {
+.site-nav .link:hover, .site-nav .link:focus {
   font-weight: 500;
   color: #404bbf;
 }
@@ -89,7 +89,7 @@ ul {
   text-decoration: none;
 }
 
-.top-contacts .link:hover {
+.top-contacts .link:hover, .top-contacts .link:focus {
   color: #404bbf;
 }
 
