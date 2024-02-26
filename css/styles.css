@@ -65,7 +65,7 @@ body {
   letter-spacing: 0.04em;
 }
 
-.btn:hover .btn:focus {
+.btn:hover, .btn:focus {
   background-color: #404bbf;
 }
 
@@ -90,6 +90,10 @@ ul {
   color: #404bbf;
 }
 
+.top-contacts {
+  font-style: normal;
+}
+
 .top-contacts .link {
   font-weight: 400;
   font-size: 16px;
@@ -97,7 +101,6 @@ ul {
   letter-spacing: 0.02em;
   color: #434455;
   text-decoration: none;
-  font-style: normal;
 }
 
 .top-contacts .link:hover, .top-contacts .link:focus {
